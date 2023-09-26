@@ -1,33 +1,33 @@
-TraceRoute Script
+##TraceRoute Script
 
 A secure and cross-platform Python script for performing traceroute operations to given domains. This script is designed with safety and robust error handling in mind.
 Features
 
-    Cross-platform support (Windows and Unix-like systems).
-    Enhanced security against command injection.
-    Comprehensive error handling.
-    Clean, formatted output for easy reading.
+Cross-platform support (Windows and Unix-like systems).
+Enhanced security against command injection.
+Comprehensive error handling.
+Clean, formatted output for easy reading.
 
-Prerequisites
+##Prerequisites
 
-    Python 3.x
-    traceroute tool installed (for Unix-like systems)
-    tracert tool (default on Windows systems)
+Python 3.x
+traceroute tool installed (for Unix-like systems)
+tracert tool (default on Windows systems)
 
-Usage
+##Usage
 
-    Clone the repository:
+Clone the repository:
+
+##bash
+
+    git clone https://github.com/ishaiva/HopsTraceRoute.git
+    cd HopsTraceRoute
+
+Run the script with the desired domain:
 
 bash
 
-git clone https://github.com/ishaiva/HopsTraceRoute.git
-cd HopsTraceRoute
-
-    Run the script with the desired domain:
-
-bash
-
-python3 TraceRoute.py example.com
+    python3 TraceRoute.py example.com
 
 Example
 
@@ -35,7 +35,7 @@ Command:
 
 bash
 
-python3 TraceRoute.py example.com
+    python3 TraceRoute.py example.com
 
 Output:
 
@@ -55,14 +55,14 @@ Hop 14: cdn-edge.example-cdn.com (198.51.100.10) 50.123 ms 50.124 ms 50.125 ms
 Hop 15: example.com (203.0.113.100) 55.123 ms 55.124 ms 55.125 ms
 ----------------------------------------
 
-Contributing
+##Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 License
 
-MIT License
+##MIT License
 
 Copyright (c) [2023] [ishaiva]
 
