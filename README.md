@@ -1,4 +1,4 @@
-##TraceRoute Script
+## TraceRoute Script
 
 A secure and cross-platform Python script for performing traceroute operations to given domains. This script is designed with safety and robust error handling in mind.
 Features
@@ -8,17 +8,17 @@ Enhanced security against command injection.
 Comprehensive error handling.
 Clean, formatted output for easy reading.
 
-##Prerequisites
+## Prerequisites
 
 Python 3.x
 traceroute tool installed (for Unix-like systems)
 tracert tool (default on Windows systems)
 
-##Usage
+## Usage
 
 Clone the repository:
 
-##bash
+bash
 
     git clone https://github.com/ishaiva/HopsTraceRoute.git
     cd HopsTraceRoute
@@ -39,8 +39,6 @@ bash
 
 Output:
 
-diff
-
 Traceroute to example.com
 ========================================
 Hop 1: _gateway (192.168.1.1) 5.403 ms 5.384 ms 5.424 ms
@@ -55,14 +53,14 @@ Hop 14: cdn-edge.example-cdn.com (198.51.100.10) 50.123 ms 50.124 ms 50.125 ms
 Hop 15: example.com (203.0.113.100) 55.123 ms 55.124 ms 55.125 ms
 ----------------------------------------
 
-##Contributing
+## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 License
 
-##MIT License
+## MIT License
 
 Copyright (c) [2023] [ishaiva]
 
